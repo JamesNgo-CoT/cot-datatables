@@ -1,0 +1,46 @@
+{
+  "name": "cot-datatables",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "gulp": "gulp",
+    "gulp-watch": "gulp watch",
+    "gulp-serve": "gulp serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JamesNgo-CoT/cot-datatables.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JamesNgo-CoT/cot-datatables/issues"
+  },
+  "homepage": "https://github.com/JamesNgo-CoT/cot-datatables#readme",
+  "devDependencies": {
+    "@babel/core": "^7.8.4",
+    "@babel/preset-env": "^7.8.4",
+    "bootstrap": "^4.4.1",
+    "del": "^5.1.0",
+    "eslint": "^6.8.0",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0",
+    "gulp-clean-css": "^4.2.0",
+    "gulp-connect": "^5.7.0",
+    "gulp-eslint": "^6.0.0",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-uglify": "^3.0.2",
+    "jquery": "^3.4.1"
+  },
+  "dependencies": {
+    "datatables": "github:CityofToronto/fepe_datatables",
+    "datatables.net-buttons": "^1.6.1",
+    "datatables.net-buttons-bs": "^1.6.1",
+    "jszip": "^3.2.2",
+    "pdfmake": "^0.1.64"
+  }
+}
